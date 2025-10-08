@@ -399,10 +399,3 @@ Environment.Load = Load -- ExunysDeveloperAimbot.Load()
 setmetatable(Environment, {__call = Load})
 
 return Environment
-
-game.StarterGui:SetCore("SendNotification",{
-			Title = "AIMBOT V3 Enabled";
-			Text = "BY RECONSHAMTA😈";
-			Duration = 0.20;
-		})
-return SendNotification
